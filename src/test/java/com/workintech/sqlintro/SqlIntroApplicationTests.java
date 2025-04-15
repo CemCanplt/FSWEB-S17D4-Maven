@@ -12,8 +12,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 @ExtendWith(ResultAnalyzer.class)
-class SqlIntroApplicationTests {
+public class SqlIntroApplicationTests {
 
+	@Autowired
 	private OgrenciRepository ogrenciRepository;
 
 	@Autowired
